@@ -1,15 +1,62 @@
-.formbox{
+.heading1{
+  text-align: center;
+  margin-top: 50px;
+  text-decoration:underline;
+}
+
+.customerDetails{
   display: flex;
   align-items: center;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid black;
+  background-color: rgba(187, 173, 201, 0.388);
+}
+
+.itemInput{
+  border: 2px solid black;
+  margin-top: 30px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  height: 100vh;
+  background-color: rgba(187,173,201,0.388);
+
 }
 
-form{
-border: 1px solid black;
-padding:25px
+.itemInput>div{
+  padding: 2px;
+  width: 300px;
+  margin: 2px;
 }
 
-form>div{
-  margin: 15px;
+.allProducts{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.allProducts>table{
+ border: 2px solid black; 
+}
+tr,td{
+  border: 1px solid rgb(145, 148, 205);
+}
+
+.allProducts>button{
+  margin: 5px;
+  height: 25px;
+}
+
+.heading2{
+  text-align: center;
+}
+
+.generatedBills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
