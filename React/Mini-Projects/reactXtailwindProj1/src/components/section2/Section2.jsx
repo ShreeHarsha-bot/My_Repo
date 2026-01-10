@@ -4,24 +4,24 @@ import Rightside from './Rightside'
 
 const card=[
   {
-    img:'https://images.unsplash.com/photo-1588860939994-ce4f7a537f03?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    desc:'essitatibus ipsa incidunt minus vel dolores deleniti distinctio? ',
+    img:'https://w0.peakpx.com/wallpaper/380/408/HD-wallpaper-batman-black-vertical-drawing-portrait-display-red.jpg',
+    desc:'You either die a hero, or live long enough to see yourself become the villain.',
   },
   {
-      img:'',
-    desc:'',
+      img:'https://wallpapercave.com/wp/wp13397473.jpg',
+    desc:'Fear is my ally.',
   },
   {
-    img:'',
-    desc:''
+    img:'https://wallpapercave.com/wp/wp11590779.jpg',
+    desc:'I am whatever Gotham needs me to be.'
   }
 ];
 
 const Section2 = () => {
   return (
-    <div className='h-screen w-full flex'>
+    <div className='h-screen w-full flex bg-cyan-100'>
       <Leftside/>
-      <Rightside />
+      <Rightside data={card} />
     </div>
   )
 }

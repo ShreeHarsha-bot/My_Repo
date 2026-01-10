@@ -1,10 +1,14 @@
 import React from 'react'
 import Card from './Card '
 
-const Rightside = () => {
+const Rightside = ({data}) => {
   return (
-    <div className='bg-amber-900 h-90 w-full m-25'>
-      <Card/>
+    <div className=' h-90 w-fit m-25 flex gap-2'>
+      {data.map(function(elem)
+    {
+      return <Card img={elem.img} desc={elem.desc}/>
+    }  
+    )}
     </div>
   )
 }
