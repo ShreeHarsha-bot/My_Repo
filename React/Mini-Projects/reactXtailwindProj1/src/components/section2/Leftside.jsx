@@ -4,7 +4,7 @@ import Rightside from './Rightside'
 const Leftside = () => {
   return (
     <div className=' h-full w-90 '>
-      <h1 className='text-4xl pt-19 pl-9 font-bold'
+      <h1 className='text-3xl pt-19 pl-9 font-bold'
       >“It’s not who  I am <br /> 
       <span className='text-blue-950 pl-5'>underneath,</span> <br />
         but what I do that defines me.”</h1><br />
