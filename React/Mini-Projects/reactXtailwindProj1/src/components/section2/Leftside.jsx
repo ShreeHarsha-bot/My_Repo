@@ -11,9 +11,8 @@ const Leftside = () => {
         <p className='font-semibold pl-10 m-1 bg-amber-50 rounded-4xl '>A man who turned pain into purpose.
 Batman stands where hope is darkest.</p>
 <h2 className='m-3 p-1 pl-54 font-bold'>- I’m Batman</h2>
-
     </div>
-    
+  
   )
 }
 
