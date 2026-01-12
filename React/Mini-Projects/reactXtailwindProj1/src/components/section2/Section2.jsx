@@ -14,12 +14,18 @@ const card=[
   {
     img:'https://wallpapercave.com/wp/wp11590779.jpg',
     desc:'I am whatever Gotham needs me to be.'
+  },
+  {
+    img:'https://images.hdqwalls.com/download/legendary-the-batman-4k-aj-1125x2436.jpg',
+    desc:'And You Never Have To.'
   }
 ];
 
 const Section2 = () => {
   return (
+    
     <div className='h-screen w-full flex bg-cyan-100'>
+    
       <Leftside/>
       <Rightside data={card} />
     </div>
