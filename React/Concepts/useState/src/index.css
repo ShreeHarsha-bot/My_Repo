@@ -1,0 +1,11 @@
+*{
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  font-size: larger;
+}
+button{
+  height:fit-content;
+  width: fit-content;
+  margin: 5px;
+}
