@@ -36,3 +36,22 @@ print(fullName.lower())
 msg='Harsha says "Hello" '      #vice versa is also possible inside double code single code 
 print(msg)
 '''
+
+# Lists
+items1=["Harsha","Guru","Harish"]
+items2=["Harsha",19,True,32.32]   #can store multiple datatype
+print(items1[0],items1[-2])
+print(items1)
+items2.pop()  #removes the last element put index for particular item
+print(items2)
+items2.append("Mandya")   #adds a new item to the list
+items2.insert(1,"Human")
+print(items2)    #there are remove() and clear() function also
+
+# slice
+price=[100,150,200,220,250,300,350,400]
+print(price[1:3])
+print(price[1:2])
+print(price[1:7:2])
+print(price[1:6:1])
+
