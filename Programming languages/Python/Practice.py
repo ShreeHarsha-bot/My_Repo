@@ -56,38 +56,40 @@ print(price[1:7:2])
 print(price[1:6:1])
 '''
 
-# # Tuples - It is similiar to the list but here once we created means we can't modify it.    
-# #list users [] ,tuple uses ()   
-# gender=("Male","Female","Others") 
-# print(gender.count('Male'))
-# print("Male" in gender)   #To check is the element is available in touple or not uses in 
+'''
+# Tuples - It is similiar to the list but here once we created means we can't modify it.    
+#list users [] ,tuple uses ()   
+gender=("Male","Female","Others") 
+print(gender.count('Male'))
+print("Male" in gender)   #To check is the element is available in touple or not uses in 
 
-# # Sets - It is a collection of unique items uses cureved brackets{}  
-# # Unorderd and Unindexed
-# set1={10,17,18,21,35}
-# print(set1)   #The elements will be not in orderd
-# set2=set()   # for empty set
+# Sets - It is a collection of unique items uses cureved brackets{}  
+# Unorderd and Unindexed
+set1={10,17,18,21,35}
+print(set1)   #The elements will be not in orderd
+set2=set()   # for empty set
 
-# s1={1,2,3,4}
-# s2={3,4,5,6}
-# print(s1 | s2)   #for union use |
-# print(s1 & s2)   #for intersection use &
+s1={1,2,3,4}
+s2={3,4,5,6}
+print(s1 | s2)   #for union use |
+print(s1 & s2)   #for intersection use &
 
+'''
 # -------------------------------------------------------------------------------------
-
-# Dictionaries - It is type as sets like uses flower brackets but it have key : Value
-# karnataka_food={
-#     "Mandya":"Baadu",
-#     "Mysuru":"Mysuru pak",
-#     "Dharwad":"Benne dose",
-# }
-# print(karnataka_food["Mandya"])    #To access particular use key
-# print(karnataka_food.get("Bengaluru","Not found"))
-# karnataka_food["Mangaluru"]="Neer dose"   #To add in runtime
-# print(karnataka_food)       #To access whole dict
-# print(karnataka_food.keys())
-# print(karnataka_food.values())
-
+'''
+Dictionaries - It is type as sets like uses flower brackets but it have key : Value
+karnataka_food={
+    "Mandya":"Baadu",
+    "Mysuru":"Mysuru pak",
+    "Dharwad":"Benne dose",
+}
+print(karnataka_food["Mandya"])    #To access particular use key
+print(karnataka_food.get("Bengaluru","Not found"))
+karnataka_food["Mangaluru"]="Neer dose"   #To add in runtime
+print(karnataka_food)       #To access whole dict
+print(karnataka_food.keys())
+print(karnataka_food.values())
+'''
 # //////////////////////////////////////////////////////////////////////////////////////
 '''
 # Loops
@@ -166,4 +168,51 @@ else:
     print("You chose an invalid character.")
 
 '''
-# 
+
+'''
+#for loop
+for i in range(1,11,3):
+    print(i,end=" ") 
+
+person=['Aryan,Param,Deepa,Adya,Anu,Manu']
+for name in person:
+    print(name)
+
+# looping over strings
+name='Harsha'
+for index,letter in enumerate(name):
+    print(letter*(index+1))
+
+number=[1,2,3,4,5,6]
+for index,num in enumerate(number):
+    print(f"{num} is in {index}th index")
+
+# Multiplication using for 
+for i in range(1,11):
+    print(f"{2} X {i} = {2*i}")
+
+for i in range(1,4):
+    for j in range(2,11):
+        print(f"{i} X {j} = {i*j}")
+
+'''
+
+# multiplication of 3 upto 30
+for i in range(1,31):
+    print(f"{3} X {i} = {3*i}")
+# Sum of first 10 number
+for i in range(1):
+    print(f"Sum of first 10 numbers = {(10*(10+1))/2}")
+    # OR
+sum=0
+for i in range(1,11):
+    sum+=i
+print("The sum of first 10 number is:",sum)
+
+# count vowels in a string
+text=input("Enter the text ")
+count=0
+for vowel in text:      #or text.lower() and only aeiou
+    if vowel in "aeiouAEIOU":
+        count+=1
+print(f"The number of vowels: ",count)
