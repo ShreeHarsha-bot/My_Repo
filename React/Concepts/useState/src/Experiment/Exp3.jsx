@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
 const Exp3 = () => {
-   const [title,subTitle]=useState('');
+   const [title,setTitle]=useState('');
   const submitBtn=(e)=>{
     e.preventDefault(); 
     console.log('Form submitted by ',title);
-    subTitle('') //Matte input box kaali agi iro tara help madatte
+    setTitle('') //Matte input box kaali agi iro tara help madatte
   }
 
   return (
@@ -17,7 +17,7 @@ const Exp3 = () => {
       placeholder='Enter your name' 
       value={title}
       onChange={(e)=>{
-        subTitle(e.target.value)
+        setTitle(e.target.value)
       }}
       />
       <button >Submit</button>

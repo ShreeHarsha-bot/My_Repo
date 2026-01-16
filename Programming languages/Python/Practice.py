@@ -36,7 +36,7 @@ print(fullName.lower())
 msg='Harsha says "Hello" '      #vice versa is also possible inside double code single code 
 print(msg)
 '''
-
+'''
 # Lists
 items1=["Harsha","Guru","Harish"]
 items2=["Harsha",19,True,32.32]   #can store multiple datatype
@@ -54,4 +54,116 @@ print(price[1:3])
 print(price[1:2])
 print(price[1:7:2])
 print(price[1:6:1])
+'''
 
+# # Tuples - It is similiar to the list but here once we created means we can't modify it.    
+# #list users [] ,tuple uses ()   
+# gender=("Male","Female","Others") 
+# print(gender.count('Male'))
+# print("Male" in gender)   #To check is the element is available in touple or not uses in 
+
+# # Sets - It is a collection of unique items uses cureved brackets{}  
+# # Unorderd and Unindexed
+# set1={10,17,18,21,35}
+# print(set1)   #The elements will be not in orderd
+# set2=set()   # for empty set
+
+# s1={1,2,3,4}
+# s2={3,4,5,6}
+# print(s1 | s2)   #for union use |
+# print(s1 & s2)   #for intersection use &
+
+# -------------------------------------------------------------------------------------
+
+# Dictionaries - It is type as sets like uses flower brackets but it have key : Value
+# karnataka_food={
+#     "Mandya":"Baadu",
+#     "Mysuru":"Mysuru pak",
+#     "Dharwad":"Benne dose",
+# }
+# print(karnataka_food["Mandya"])    #To access particular use key
+# print(karnataka_food.get("Bengaluru","Not found"))
+# karnataka_food["Mangaluru"]="Neer dose"   #To add in runtime
+# print(karnataka_food)       #To access whole dict
+# print(karnataka_food.keys())
+# print(karnataka_food.values())
+
+# //////////////////////////////////////////////////////////////////////////////////////
+'''
+# Loops
+x=18
+if x==17:
+    print("The value of X is 18")
+else:
+    print("The value of X is not 18")
+
+
+signal='Green'
+if signal=='Red':
+    print("Stop")
+elif signal=='Yellow':
+    print('Ready')
+else:
+    print("Go")
+'''
+
+# Let's try the fun one ha ha  /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Aryan-Adya,Param-Deepa , Manu- Anu
+'''
+character = input("Choose the character: Aryan | Param | Manu: ").strip().lower()
+
+if character == "aryan":
+    career = input("Choose the career: Director | Engineer: ").strip().lower()
+
+    if career == "director":
+        career_type = input("Choose the type: Movies | Webseries: ").strip().lower()
+
+        if career_type == "movies":
+            print("You are Aryan, you direct movies 🎬")
+        elif career_type == "webseries":
+            print("You are Aryan, you direct web series 📺")
+        else:
+            print("Invalid type. Dream unclear.")
+
+    elif career == "engineer":
+        print("You are an engineer, but you lost your dream.")
+
+    else:
+        print("You chose an invalid career.")
+
+elif character == "param":
+    career = input("Choose the career: Writer | Employee: ").strip().lower()
+
+    if career == "writer":
+        career_type = input("Choose type of writing: Cinema | Books: ").strip().lower()
+
+        if career_type == "cinema":
+            print("You are Param, a cinema writer 🎥")
+        elif career_type == "books":
+            print("You are Param, a book writer 📚")
+        else:
+            print("Invalid writing type.")
+
+    elif career == "employee":
+        print("You are an employee, but you lost your dream.")
+
+    else:
+        print("You chose an invalid career.")
+
+elif character == "manu":
+    career = input("Choose your career: Farmer | Employee | Both: ").strip().lower()
+
+    if career == "farmer":
+        print("You are a farmer 🌾")
+    elif career == "employee":
+        print("You are an employee 💼")
+    elif career == "both":
+        print("You balance farming and a job. Respect 👏")
+    else:
+        print("You chose an invalid option.")
+
+else:
+    print("You chose an invalid character.")
+
+'''
+# 
