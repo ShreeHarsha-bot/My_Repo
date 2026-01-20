@@ -206,12 +206,12 @@ for i in range(1):
     # OR
 sum=0
 for i in range(1,11):
-    sum+=i
+    sum+=i  
 print("The sum of first 10 number is:",sum)
 
 # count vowels in a string
 text=input("Enter the text ")
-count=0
+count=0     
 for vowel in text:      #or text.lower() and only aeiou
     if vowel in "aeiouAEIOU":
         count+=1
