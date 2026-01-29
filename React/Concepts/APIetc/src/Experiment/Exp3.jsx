@@ -7,5 +7,5 @@ const Exp3 = () => {
     </div>
   )
 }
-
+   
 export default Exp3
