@@ -12,6 +12,7 @@ const App = () => {
     setUserData(response.data)
     console.log(response.data);  
   }
+  
 
   useEffect(function(){
     getdata()
