@@ -12,9 +12,10 @@ import NotFound from './pages/NotFound'
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-        <Routes>
+    <div className='bg-amber-100 min-h-screen flex flex-col w-screen  ' >
+      <Navbar/> 
+        <div className='flex grow'>
+          <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/films' element={<Films />}/>
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='*' element={<NotFound/>}/>
           <Route></Route>
         </Routes>
+        </div>
       <Footer/>
     </div>
   )
