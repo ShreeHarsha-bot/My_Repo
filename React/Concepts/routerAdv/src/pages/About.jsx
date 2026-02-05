@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div >
-      <h2 className="font-bold m-3 text-xl underline text-center ">About us</h2>
+      <h2 className="font-bold m-3 text-3xl underline text-center ">About us</h2>
       <div className="flex justify-center items-center">
          <img src="https://static.vecteezy.com/system/resources/previews/023/826/596/non_2x/cinema-movie-camera-side-view-template-in-cartoon-and-vintage-style-isolated-illustration-vector.jpg"
           className="h-100 w-100 m-5 pl-10 pb-20 rounded-full hover:skew-x-1 skew-y-3" />

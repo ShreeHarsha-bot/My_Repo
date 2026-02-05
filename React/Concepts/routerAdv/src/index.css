@@ -13,3 +13,23 @@ h1{
     text-decoration: underline;
     
 }
+input {
+  /* width: 100%; */
+  padding: 8px;
+  border: 1px solid #292323;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+}
+input::placeholder {
+  color: #4b343490;
+  font-size: 12px;
+  padding: 10px;
+
+}
+textarea{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
