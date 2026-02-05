@@ -33,7 +33,7 @@ const App = () => {
   }
   return (
     <div className='bg-black h-screen p-5 overflow-auto text-white '>
-  
+
       <button 
       onClick={getdata}
       className='bg-green-600 p-2 rounded font-bold active:scale-90 m-3 '>
