@@ -5,7 +5,7 @@ import EOK from '../assets/EchoesOfKitta.png'
 import Kanasu from '../assets/Kanasu2.png'
 import MIM from '../assets/MIM1.jpeg'
 import NK from '../assets/NaaKandanthe.png'
-import Maaye from '../assets/Maaye-3.png'
+import Maaye from '../assets/Maaye-4.png'
 
 
 
